@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "pantheon",
+  "version": "1.0.0",
+
+  "name": "Pantheon",
+  "description": "Mod adds gods. Clap them godly cheeks.",
+  "authors": [
+    "Camellias_"
+  ],
+  "contact": {
+    "homepage": "https://camsmods.com/",
+    "sources": "https://github.com/CammiePone/Pantheon"
+  },
+
+  "license": "GNU-GPL-3.0",
+  "icon": "assets/pantheon/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.camsmods.pantheon.Pantheon"
+    ]
+  },
+  "mixins": [
+    "pantheon.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
